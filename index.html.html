@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Câmeras Urbanas</title>
+  <style>
+    body {
+      background: #121212;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .tv-frame {
+      background: #333;
+      border: 12px solid #222;
+      border-radius: 25px;
+      padding: 10px;
+      width: 360px;
+      height: 260px;
+      box-shadow: 0 0 25px #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    iframe {
+      border: none;
+      width: 320px;
+      height: 180px;
+      border-radius: 15px;
+    }
+
+    h2 {
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TV 1: novo vídeo que você pediu -->
+  <div class="tv-frame">
+    <iframe src="https://www.youtube.com/embed/Otgjw6uVDck?autoplay=1&mute=1&controls=1"
+            allowfullscreen allow="autoplay"></iframe>
+    <h2>Câmera 1</h2>
+  </div>
+
+  <!-- TVs 2 a 4: com o vídeo anterior como exemplo -->
+  <div class="tv-frame">
+    <iframe src="https://www.youtube.com/embed/tLxYisx-ZD4?autoplay=1&mute=1&controls=1"
+            allowfullscreen allow="autoplay"></iframe>
+    <h2>Câmera 2</h2>
+  </div>
+
+  <div class="tv-frame">
+    <iframe src="https://www.youtube.com/embed/tLxYisx-ZD4?autoplay=1&mute=1&controls=1"
+            allowfullscreen allow="autoplay"></iframe>
+    <h2>Câmera 3</h2>
+  </div>
+
+  <div class="tv-frame">
+    <iframe src="https://www.youtube.com/embed/tLxYisx-ZD4?autoplay=1&mute=1&controls=1"
+            allowfullscreen allow="autoplay"></iframe>
+    <h2>Câmera 4</h2>
+  </div>
+
+</body>
+</html>
